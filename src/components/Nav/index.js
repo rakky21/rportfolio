@@ -15,10 +15,10 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+    <header className="flex-row px-1" style={{ background: "grey" }} class="nav">
+      <h2 class="nav-item">
+        <a data-testid="link" class='"nav-link"' href="/"> 
+          <span ></span> My Portfolio
         </a>
       </h2>
       <nav>
