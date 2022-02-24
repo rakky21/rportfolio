@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import Nav from './components/Nav';
-// import About from './components/About';
+import About from './components/About';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 
@@ -10,13 +10,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* possible image */}
-
         {/* EXAMPLE!!! */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-
+Portfolio
       </header>
 
+<main> 
+<About></About>
+
+
+</main>
     </div>
   );
 }
