@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import Nav from './components/Nav';
+import Nav from './components/Nav';
 import About from './components/About';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
@@ -12,14 +12,12 @@ function App() {
         {/* possible image */}
         {/* EXAMPLE!!! */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-Portfolio
+        Portfolio
       </header>
-
-<main> 
-<About></About>
-
-
-</main>
+      <Nav></Nav>
+      <main>
+        <About></About>
+      </main>
     </div>
   );
 }
