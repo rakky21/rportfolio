@@ -14,12 +14,16 @@ function Nav(props) {
   //   document.title = capitalizeFirstLetter(currentCategory);
   // }, [currentCategory]);
 
+  function categorySelected(){
+    console.log("hello")
+  }
+
   return (
-    <header className="flex-row px-1" style={{ background: "grey" }} class="nav">
+    <header className="flex-row px-1" style={{ background: "silver" }} class="nav">
 
       <h2>
         <a href='/'>
-          Snap
+          Portfolio
         </a>
       </h2>
 
@@ -33,6 +37,22 @@ function Nav(props) {
           <li>
             <span>Contact</span>
           </li>
+
+          {categories.map((category) => (
+            <li
+              className='mx-1'
+              key={category.name}>
+
+              <span onClick={() => categorySelected(category)}>
+                {category.name}
+              </span>
+            </li>
+          ))}
+
+          <li>
+            <a>Resume</a>
+          </li>
+
         </ul>
       </nav>
     </header>

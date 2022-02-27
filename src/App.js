@@ -12,7 +12,7 @@ function App() {
         {/* possible image */}
         {/* EXAMPLE!!! */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        Portfolio
+
       </header>
       <Nav></Nav>
       <main>
