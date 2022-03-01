@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react'
+import React from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
 // import Portfolio from './components/Portfolio';
@@ -8,15 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        {/* possible image */}
-        {/* EXAMPLE!!! */}
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-      </header>
-      <Nav></Nav>
+      <Nav/>
       <main>
-        <About></About>
+        <About/>
       </main>
     </div>
   );
