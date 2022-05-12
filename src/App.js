@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 function App() {
-  const categories = [
+  const categories = useState [
   'portfolio' , 'about', 'contact Form'
   ]
   const [currentCategory, setCurrentCategory] = useState (categories[0]) 
@@ -24,9 +24,9 @@ function App() {
   return (
     <div>
       <Nav 
-      currentCategory={currentCategory} 
-      setCurrentCategory={setCurrentCategory} 
-      categories={categories}
+  //     currentCategory={currentCategory} 
+  //     setCurrentCategory={setCurrentCategory} 
+  //     categories={categories}
   // setContactSelected={setContactSelected}
        ></Nav>
       <main>
